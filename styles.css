@@ -29,4 +29,18 @@ h1{
     color: #fff;
 }
 
+/* Responsive */
+@media screen and (max-width: 600px){
+
+    .flex-container{
+        flex-direction: column;
+        align-self: flex-start;
+        justify-content: space-around;
+    }
+
+    h1{
+        color: aqua;
+    }
+
+}
 
